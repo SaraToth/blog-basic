@@ -1,2 +1,1 @@
-# blog-basic
-A consumption blog frontend 
+# Basic Consumption Blog Frontend
