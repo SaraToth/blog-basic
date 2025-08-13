@@ -1,6 +1,14 @@
+import "./Navbar.css";
+
 const Navbar = () => {
     return(
-        <p>This is a navbar</p>
+        <nav>
+            <ul>
+                <li><a href="/">Words</a></li>
+                <li><a href="/user/signup">Signup</a></li>
+                <li><a href="/user/login">Login</a></li>
+            </ul>
+        </nav>
     )
 };
 
