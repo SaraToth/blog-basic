@@ -1,5 +1,6 @@
 import "./LandingPage.css"
 import Navbar from "../../Components/Navbar";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
     return(
@@ -9,7 +10,7 @@ const LandingPage = () => {
                 <Navbar/>
                 <h1>End the Digital <br/>Clutter</h1>
                 <p>Save, Share, and organize with Filer</p>
-                <a href="/user/signup" className="signup">Sign up</a>
+                <Link to="signup" className="signup">Sign up</Link>
                 </div>
             </div>
         </>
