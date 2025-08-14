@@ -1,11 +1,11 @@
-import './App.css'
-import LandingPage from './pages/LandingPage/LandingPage';
+import "./App.css";
+import { Outlet } from "react-router-dom";
 
 function App() {
 
   return (
     <>
-      <LandingPage/>
+      <Outlet/>
     </>
 
   )
