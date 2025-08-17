@@ -1,9 +1,9 @@
 import App from "../App";
 import LandingPage from "../pages/LandingPage/LandingPage";
-import About from "../pages/About";
+import About from "../pages/About/About";
 import Login from "../pages/Login/Login";
 import Signup from "../pages/SignUp/SignUp";
-import BlogHome from "../pages/BlogHome";
+import BlogHome from "../pages/BlogHome/BlogHome";
 
 const routes = [
     {
