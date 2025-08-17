@@ -2,7 +2,7 @@ import App from "../App";
 import LandingPage from "../pages/LandingPage/LandingPage";
 import About from "../pages/About";
 import Login from "../pages/Login";
-import Signup from "../pages/SignUp";
+import Signup from "../pages/SignUp/SignUp";
 import BlogHome from "../pages/BlogHome";
 
 const routes = [
