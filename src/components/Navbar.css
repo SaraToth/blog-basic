@@ -6,7 +6,6 @@ nav ul {
     margin: 0;
     padding: 20px 0;
     display: flex;
-    color: white;
     gap: 20px;
 }
 
@@ -16,6 +15,11 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 16px;
+}
+
+nav a:hover {
+    background-color: yellow;
+    border-radius: 20px;
 }
