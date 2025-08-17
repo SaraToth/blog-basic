@@ -1,6 +1,11 @@
+import Navbar from "../Components/Navbar";
+
 const BlogHome = () => {
     return(
-        <p>This is the blog home</p>
+        <>
+            <Navbar/>
+            <p>This is the blog home</p>
+        </>
     )
 };
 
