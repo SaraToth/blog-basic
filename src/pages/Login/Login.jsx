@@ -6,7 +6,7 @@ const Login = () => {
         <section>
             <h1>Login to Words</h1>
             <div className="form-container">
-                <form action="/user/login" method="post">
+                <form action="http://localhost:3000/user/login" method="post">
                     <div className="form-item">
                         <label htmlFor="email">Email:</label>
                         <input type="email" name="email" id="email" required />

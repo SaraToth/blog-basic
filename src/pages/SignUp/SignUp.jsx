@@ -5,7 +5,7 @@ const Signup = () => {
         <section>
             <h1>Sign up for Words</h1>
             <div className="form-container">
-                <form action="/user/signup" method="post">
+                <form action="http://localhost:3000/user/signup" method="post">
                     <div className="form-item">
                         <label htmlFor="firstName">First Name:</label>
                         <input type="text" id="firstName" name="firstName" required/>
