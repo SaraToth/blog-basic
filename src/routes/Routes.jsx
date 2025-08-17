@@ -1,7 +1,7 @@
 import App from "../App";
 import LandingPage from "../pages/LandingPage/LandingPage";
 import About from "../pages/About";
-import Login from "../pages/Login";
+import Login from "../pages/Login/Login";
 import Signup from "../pages/SignUp/SignUp";
 import BlogHome from "../pages/BlogHome";
 
