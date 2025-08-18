@@ -31,7 +31,6 @@ const BlogHome = () => {
 
     }, [token]); // Rerun if token changes
 
-
     if (!token) {
         return (
             <>
@@ -56,7 +55,7 @@ const BlogHome = () => {
                     <ul>
                         {posts.length > 0 ? (
                             posts.map((post) => {
-                                <li key={post.id}>{post.title}</li>
+                               return <li key={post.id}>{post.title}</li>
                             })
                         ) : (
                             <p>Sorry, no posts yet!</p>
