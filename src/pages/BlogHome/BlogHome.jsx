@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import "./BlogHome.css";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import BlogIcon from "../../components/BlogIcon/BlogIcon";
 
 const BlogHome = () => {
     const token = localStorage.getItem("token");
@@ -52,15 +53,15 @@ const BlogHome = () => {
             <div className="blog-home">
                 <div className="blog-home-content">
                     <h1>Blog</h1>
-                    <ul>
                         {posts.length > 0 ? (
-                            posts.map((post) => {
-                               return <li key={post.id}>{post.title}</li>
-                            })
+                            <div className="blog-grid-container">
+                                {posts.map((post) => {
+                                    return <BlogIcon key={post.id} title={post.title} />
+                                })}
+                            </div>
                         ) : (
                             <p>Sorry, no posts yet!</p>
                         )}
-                    </ul>
                 </div>
             </div>
 
