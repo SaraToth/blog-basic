@@ -11,7 +11,7 @@ const LandingPage = () => {
         if (token) {
             navigate("/blog");
         }
-    }, [token, navigate])
+    }, [token, navigate]) // rerun if token changes
 
     // Render nothing if token exists
     if (token) return null;
