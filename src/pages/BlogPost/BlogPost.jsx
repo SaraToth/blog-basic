@@ -36,6 +36,7 @@ const BlogPost = () => {
             <div className="blog-post">
                 <div className="blog-post-content">
                     <h1>{post.title}</h1>
+                    <p>{post.updatedAt || post.createdAt}</p>
                     <p>{post.content}</p>
                     <Link to="/">Back</Link>
                 </div>
