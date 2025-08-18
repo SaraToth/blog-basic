@@ -1,0 +1,26 @@
+nav {
+    /* Margin-right/left matches with page content */
+    margin: 0px 50px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: yellow;
+    border-radius: 20px;
+}
