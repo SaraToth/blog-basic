@@ -18,13 +18,7 @@ const routes = [
 
     { path: "/login", element: <Login/> },
     { path: "/signup", element: <Signup/> },
-    { 
-        path: "/blog", 
-        element: 
-            <ProtectedRoute>
-                <BlogHome/>
-            </ProtectedRoute>
-        }
+    { path: "/blog", element: <BlogHome/> }
 ];
 
 export default routes;
