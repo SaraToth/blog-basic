@@ -56,7 +56,7 @@ const BlogHome = () => {
                         {posts.length > 0 ? (
                             <div className="blog-grid-container">
                                 {posts.map((post) => {
-                                    return <BlogIcon key={post.id} title={post.title} />
+                                    return <Link key={post.id} to={post.slug}><BlogIcon title={post.title} /></Link>
                                 })}
                             </div>
                         ) : (
