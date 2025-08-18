@@ -1,3 +1,4 @@
-blog-home-content {
-    margin: 0, 50px;
+.blog-home-content {
+    /* Margin-right/left matches with navbar */
+    margin: 0 50px;
 }

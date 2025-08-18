@@ -5,9 +5,13 @@ const BlogHome = () => {
     return(
         <>
             <Navbar/>
-            <div className="blog-home-content">
-                <p>This is the blog home</p>
+            <div className="blog-home">
+                <div className="blog-home-content">
+                    <h1>Blog</h1>
+                    <p>This is the blog home</p>
+                </div>
             </div>
+
         </>
     )
 };
