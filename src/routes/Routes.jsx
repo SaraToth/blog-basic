@@ -4,7 +4,6 @@ import About from "../pages/About/About";
 import Login from "../pages/Login/Login";
 import Signup from "../pages/SignUp/SignUp";
 import BlogHome from "../pages/BlogHome/BlogHome";
-import ProtectedRoute from "../components/ProtectedRoute/ProtectedRoute";
 
 const routes = [
     {
