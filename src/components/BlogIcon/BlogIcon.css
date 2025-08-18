@@ -1,10 +1,25 @@
 .blog-icon {
     border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .blog-img {
     background-color: cornflowerblue;
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
+    width: 100%; /* fill the grid item */
+    height: 250px; /* make it larger */
+}
+
+
+.blog-icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.blog-icon h2 {
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5rem;
 }

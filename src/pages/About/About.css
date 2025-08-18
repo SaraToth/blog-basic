@@ -1,4 +1,8 @@
 .about-page-content {
     /* Margin-right/left matches with navbar */
     margin: 0 50px;
+    max-width: 700px;        /* keeps lines from being too long */
+    padding: 2rem 1rem;       /* some breathing room */
+    line-height: 1.6;         /* easier to read */
+    font-size: 1.05rem; 
 }

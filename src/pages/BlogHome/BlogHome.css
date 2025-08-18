@@ -2,3 +2,17 @@
     /* Margin-right/left matches with navbar */
     margin: 0 50px;
 }
+
+
+.blog-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns per row */
+    gap: 30px; /* space between grid items */
+    margin: 20px 0;
+    padding-bottom: 80px;
+}
+
+.blog-link {
+    text-decoration: none;
+    color: black;
+}

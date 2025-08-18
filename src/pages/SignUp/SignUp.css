@@ -1,10 +1,10 @@
 section {
+  height: calc(100vh - 58px);
   padding: 0;
-  height: 100vh;
-  background-image: url("../desktop.avif");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  padding-top: 55px;
+  background-color: rgb(246, 246, 246);
+  overflow: hidden;
+
 }
 .form-container {
   display: flex;
@@ -17,12 +17,12 @@ form {
   color: black;
   display: flex;
   flex-direction: column;
-  padding: 2.5rem;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   width: 100%;
-  max-width: 400px;
-  gap: 1rem;
+  max-width: 350px; /* reduced from 400px */
+  padding: 2rem; /* slightly smaller */
+  gap: 0.75rem; /* slightly smaller gap between form items */
 }
 
 .form-item {
@@ -32,25 +32,25 @@ form {
 
 input {
   margin-top: 0;
-  padding: 0.75rem 1rem;
   border: 1px solid #d9d9d9;
   border-radius: 8px;
-  font-size: 1rem;
+  padding: 0.65rem 0.9rem; /* slightly smaller inputs */
+  font-size: 0.95rem; /* slightly smaller text */
 }
 
 button {
   padding: 0.75rem 1rem;
   border: none;
-  background-color: #000000;
-  color: white;
+  background-color: rgb(255, 240, 70);
   border-radius: 8px;
   font-size: 1rem;
   cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 button:hover {
-  background-color: #280590;
-  color: white;
+  background-color: gold;
 }
 
 span {
