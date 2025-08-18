@@ -28,7 +28,7 @@ const Navbar = () => {
     return(
         <nav>
             <ul>
-                <li><Link to="/">Words</Link></li>
+                <li><Link to="/blog">Words</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/blog">Blog</Link></li>
                 <li><Link onClick={handleLogout}>Logout</Link></li>
